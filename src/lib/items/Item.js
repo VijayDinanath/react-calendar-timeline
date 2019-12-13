@@ -566,7 +566,7 @@ export default class Item extends Component {
       position: 'absolute',
       boxSizing: 'border-box',
       left: `${dimensions.left}px`,
-      top: props.style.top? `${props.style.top}px`: `${dimensions.top}px`,
+      top: `${dimensions.top}px`,
       width: `${dimensions.width}px`,
       height: `${dimensions.height}px`,
       lineHeight: `${dimensions.height}px`
